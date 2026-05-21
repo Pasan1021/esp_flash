@@ -1,0 +1,13 @@
+# Simple key=value manifest for github_host_esp32_flasher
+version=1.0.0
+flash_baud=230400
+monitor_baud=115200
+bootloader_url=https://raw.githubusercontent.com/Pasan1021/esp_flash/main/firmware/esp32/bootloader.bin
+bootloader_size=18992
+bootloader_crc32=0xf48a3b1b
+partitions_url=https://raw.githubusercontent.com/Pasan1021/esp_flash/main/firmware/esp32/partitions.bin
+partitions_size=3072
+partitions_crc32=0x55e59c3c
+app_url=https://raw.githubusercontent.com/Pasan1021/esp_flash/main/firmware/esp32/app.bin
+app_size=260832
+app_crc32=0x3a198fae
